@@ -1,3 +1,32 @@
-<p>
-register works!
-</p>
+  <mat-toolbar-row>
+ <mat-card>
+      <mat-card-header>
+        <mat-card-title>
+          <h4>Register</h4>
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <form class="login-form" fxLayout="column" (click)="doregesterMe()">
+          <mat-form-field>
+        <input type="text" placeholder="Enter valid email" matInput />       
+          </mat-form-field>
+            <mat-form-field>
+        <input type="password" placeholder="Enter new password" matInput />       
+          </mat-form-field>
+           <mat-form-field>
+        <input type="password" placeholder="Re-enter new password" matInput />       
+          </mat-form-field>
+             <mat-form-field>
+        <input type="password" placeholder="Enter 10 digit mobile no..." matInput  />       
+          </mat-form-field>
+           <div fxLayout="column">
+          <button mat-raised-button color="primary">Register</button>
+          </div>
+        </form>
+        <hr/>
+        <div>
+        <button mat-raised-button (click)="sendOTP()">Can register through OTP</button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </mat-toolbar-row>
