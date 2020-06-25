@@ -1,0 +1,23 @@
+body{
+  height: 100vh;
+}
+
+.mat-card{
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  
+}
+mat-toolbar#header mat-toolbar-row{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center
+}
+mat-toolbar#container mat-toolbar-row{
+display: flex;
+justify-content: center;
+align-content: center;
+height: 100vh;
+}

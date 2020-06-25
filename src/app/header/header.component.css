@@ -1,0 +1,22 @@
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+}
+ul.navbar{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+}
+ul.navbar li a{
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 10px;
+  font-size: 14px;
+}
